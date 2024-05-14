@@ -1,4 +1,4 @@
-# Logging System
+# Quality Log Control
 
 This Logging System is a Django-based web application that allows users to log messages and filter logs based on different criteria.
 
