@@ -1,7 +1,3 @@
-Certainly! If you've deployed your Django application and it's hosted online, you can add a section to your README.md file with a link to the deployed version. Here's an example:
-
----
-
 # Logging System
 
 This Logging System is a Django-based web application that allows users to log messages and filter logs based on different criteria.
