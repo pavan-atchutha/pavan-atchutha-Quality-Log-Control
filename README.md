@@ -1,40 +1,60 @@
+Certainly! If you've deployed your Django application and it's hosted online, you can add a section to your README.md file with a link to the deployed version. Here's an example:
+
+---
+
 # Logging System
 
 This Logging System is a Django-based web application that allows users to log messages and filter logs based on different criteria.
 
-## How to Run the Project
+## Deployment
+
+The Logging System is currently deployed and accessible online. You can access the deployed version of the application at https://pavan-atchutha-quality-log-control.onrender.com/.
+
+## How to Run the Project Locally
 
 1. Clone the repository to your local machine:
 
 ```
-https://github.com/pavan-atchutha/pavan-atchutha-Quality-Log-Control.git
+git clone https://github.com/pavan-atchutha/pavan-atchutha-Quality-Log-Control.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd logging-system
+cd QL_Control
 ```
 
-3. Install the required dependencies:
+3. Create and activate a virtual environment (optional but recommended):
+
+```
+# On macOS/Linux
+python3 -m venv env
+source env/bin/activate
+
+# On Windows
+python -m venv env
+.\env\Scripts\activate
+```
+
+4. Install the required dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-4. Apply migrations to create the database schema:
+5. Apply migrations to create the database schema:
 
 ```
 python manage.py migrate
 ```
 
-5. Run the Django development server:
+6. Run the Django development server:
 
 ```
 python manage.py runserver
 ```
 
-6. Access the application in your web browser at [http://localhost:8000/](http://localhost:8000/).
+7. Access the application in your web browser at [http://localhost:8000/](http://localhost:8000/).
 
 ## System Design
 
@@ -56,3 +76,4 @@ The Logging System is built using the Django web framework. It consists of the f
 - **Error Handling**: Error handling for JSON decoding errors and form validation errors needs to be improved.
 - **Authentication and Authorization**: Currently, there is no authentication and authorization implemented. Adding user authentication and authorization would enhance security.
 - **User Interface**: The user interface can be improved for better user experience.
+
